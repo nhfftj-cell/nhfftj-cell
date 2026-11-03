@@ -47,7 +47,7 @@ Quando não estou analisando alocações de memória no terminal ou ajustando al
 - **Produção Principal**: Rust (tokio, serde, async-std), Go (concorrência, netpoll, componentes internos do runtime)
 - **Baixo Nível & Embarcados**: C99, Zig, Assembly ARM Cortex-M
 - **Camada Web & Interface**: TypeScript moderno, Svelte, WebAssembly (Wasm-bindgen)
-- **Scripting & Automação**: POSIX Shell, Python (modelagem de dados e simulações numéricas), Lua
+- **Scripting & Ferramentas de Sistema**: POSIX Shell, Python (modelagem de dados e simulações numéricas), Lua
 
 ### Sistemas Distribuídos & Armazenamento
 - **Engenharia de Protocolos**: libp2p, gRPC, Protobuf, QUIC, ajustes de pilha TCP/IP, WireGuard

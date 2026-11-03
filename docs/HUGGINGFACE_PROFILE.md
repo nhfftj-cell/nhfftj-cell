@@ -6,9 +6,9 @@
 Full Name:           Mateo Silva
 GitHub Username:     nhfftj-cell
 Homepage / Website:  https://github.com/nhfftj-cell
-Interests:           Edge-Computing, Local-First, Quantization, Efficient-Inference, P2P-Sync
+Interests:           Edge-Computing, Local-First, Numerical-Computing, WebAssembly, P2P-Sync
 Bio:
-Staff infrastructure engineer working on edge computing, ultra-compact embedding models, and offline-first local intelligence. Researching delta model weight sync over constrained peer-to-peer networks.
+Staff infrastructure engineer working on edge computing, compact binary serialization, and embedded numerical runtimes. Researching deterministic state synchronization over constrained networks.
 ```
 
 ---
@@ -18,19 +18,19 @@ Staff infrastructure engineer working on edge computing, ultra-compact embedding
 ```markdown
 # Mateo Silva
 
-Staff Infrastructure Engineer · Distributed Systems & Edge Inference  
+Staff Infrastructure Engineer · Systems Architecture & Numerical Runtimes  
 Based in Lisbon, Portugal (UTC+0 / WET) · [GitHub (@nhfftj-cell)](https://github.com/nhfftj-cell)
 
 ---
 
 ## 🧭 Direction & Research Focus
 
-My work on Hugging Face revolves around making machine learning practical in zero-cloud, high-latency, and bandwidth-constrained environments. I don't build massive cloud clusters; I focus on extreme compression, local-first embedding generation, and decentralized model distribution.
+My work on Hugging Face revolves around low-level numerical computing, compact tensor serialization formats, and deterministic WebAssembly runtimes for resource-constrained environments. Focusing on SIMD optimization, zero-copy deserialization, and decentralized state distribution without central cloud dependencies.
 
 ### Core Explorations
-1. **Low-Power Edge Embeddings**: Optimizing sub-50MB dense semantic representation models capable of running entirely in WebAssembly and on low-spec ARM SBCs without GPU acceleration.
-2. **P2P Model Weight Distribution**: Chunked, Merkle-verified delta replication protocols for quant models (GGUF / AWQ), enabling mesh nodes to distribute model updates over intermittent local networks.
-3. **Local Vector Search Primitives**: Developing tiny, zero-dependency embedding index formats tailored for embedded SQLite instances and local-first CRDT stores.
+1. **Low-Power Embedded Compute**: Optimizing dense vector representation engines capable of running entirely in WebAssembly and on low-spec ARM SBCs with strict memory caps.
+2. **P2P Weight & Data Distribution**: Chunked, Merkle-verified delta replication protocols for binary weights and tensors, enabling mesh nodes to distribute updates over intermittent local networks.
+3. **Local Vector Search Primitives**: Developing tiny, zero-dependency index formats tailored for embedded SQLite instances and local-first CRDT stores.
 
 ---
 
@@ -38,24 +38,24 @@ My work on Hugging Face revolves around making machine learning practical in zer
 
 | Type | Repository / Target | Focus | Primary Architecture |
 | :--- | :--- | :--- | :--- |
-| **Model** | `micro-embed-multilingual-quant` | 4-bit quantized multilingual text representation model (<38MB) for edge search. | GGUF / ONNX / Wasm |
+| **Model** | `micro-vector-compact-quant` | 4-bit quantized vector computation weights (<38MB) for edge search. | GGUF / ONNX / Wasm |
 | **Dataset** | `intermittent-network-telemetry` | Time-series packet loss & latency traces from low-power LoRa mesh field tests. | Parquet / Arrow |
-| **Space** | `edge-similarity-sandbox` | Zero-backend in-browser semantic similarity demo running pure client-side WebAssembly. | Svelte / Wasm / WebGPU |
-| **Model** | `lora-delta-adapter-dist` | Parameter-efficient task adapters formatted for P2P chunked bitstream streaming. | SafeTensors / Merkle Chunked |
+| **Space** | `edge-vector-sandbox` | Zero-backend in-browser vector mathematics demo running pure client-side WebAssembly. | Svelte / Wasm / WebGPU |
+| **Model** | `tensor-delta-stream` | Parameter-efficient delta matrices formatted for P2P chunked bitstream streaming. | SafeTensors / Merkle Chunked |
 
 ---
 
-## 💻 Tech Stack in ML & Inference Systems
+## 💻 Tech Stack in Numerical & Systems Runtimes
 
-- **Runtimes & Compilation**: `candle` (minimalist Rust ML framework), ONNX Runtime, `llama.cpp` (GGUF tooling), WebAssembly
-- **Formats & Primitives**: SafeTensors, Arrow / Parquet, FlatBuffers, Quantization (INT4 / INT8 / AWQ)
+- **Runtimes & Compilation**: Rust SIMD kernels, BLAS primitives, ONNX Runtime, WebAssembly
+- **Formats & Primitives**: SafeTensors, Arrow / Parquet, FlatBuffers, Quantization (INT4 / INT8)
 - **Host Systems**: Linux (Arch / Alpine), RISC-V SBCs, Raspberry Pi CM4, Apple Silicon (Metal)
 
 ---
 
 ## 📬 Contact & Collaboration
 
-Interested in local-first AI, edge inference without corporate cloud dependencies, or P2P data synchronization? Feel free to connect:
+Interested in deterministic numerical systems, portable WebAssembly kernels, or P2P data synchronization? Feel free to connect:
 
 - **GitHub**: [github.com/nhfftj-cell](https://github.com/nhfftj-cell)
 - **Matrix**: `@mateo:matrix.org`

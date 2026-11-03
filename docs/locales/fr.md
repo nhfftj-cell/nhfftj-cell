@@ -47,7 +47,7 @@ Lorsque je ne suis pas en train de profiler des allocations mémoire ou d'ajuste
 - **Production Principale** : Rust (tokio, serde, async-std), Go (concurrence, netpoll, mécanismes internes du runtime)
 - **Bas Niveau & Embarqué** : C99, Zig, Assembleur ARM Cortex-M
 - **Couche Web & Interface** : TypeScript moderne, Svelte, WebAssembly (Wasm-bindgen)
-- **Scripting & Automatisation** : POSIX Shell, Python (modélisation de données & calcul numérique), Lua
+- **Scripting & Outils Système** : POSIX Shell, Python (modélisation de données & calcul numérique), Lua
 
 ### Systèmes Distribués & Stockage
 - **Ingénierie de Protocoles** : libp2p, gRPC, Protobuf, QUIC, optimisation de pile TCP/IP, WireGuard

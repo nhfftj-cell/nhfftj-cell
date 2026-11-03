@@ -47,7 +47,7 @@
 - **核心生产力**：Rust (tokio, serde, async-std), Go (高并发调度, netpoll 机制, 运行时内核)
 - **底层与嵌入式**：C99, Zig, ARM Cortex-M 汇编
 - **前端与交互层**：现代 TypeScript, Svelte, WebAssembly (Wasm-bindgen)
-- **脚本与自动化**：POSIX Shell, Python (数据建模与数值模拟), Lua
+- **脚本与系统工具**：POSIX Shell, Python (数据建模与数值模拟), Lua
 
 ### 分布式通信与存储架构
 - **网络协议工程**：libp2p, gRPC, Protobuf, QUIC, TCP/IP 内核栈调优, WireGuard

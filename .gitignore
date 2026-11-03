@@ -1,3 +1,10 @@
 # Chrome Profile Data
 chrome_profile/
 *.log
+
+# Sensitive credentials & environment
+.env
+tokens.json
+env.json
+load_env.js
+scratch/

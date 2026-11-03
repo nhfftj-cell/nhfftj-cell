@@ -47,7 +47,7 @@ Wenn ich nicht gerade Speicherallokationen im Terminal analysiere oder TCP-Stauk
 - **Primär in Produktion**: Rust (tokio, serde, async-std), Go (Parallelität, netpoll, Laufzeitinterna)
 - **Systemnah & Eingebettet**: C99, Zig, ARM Cortex-M Assembler
 - **Web- & Schnittstellenschicht**: Modernes TypeScript, Svelte, WebAssembly (Wasm-bindgen)
-- **Skripte & Automatisierung**: POSIX Shell, Python (Datenmodellierung & numerische Simulationen), Lua
+- **Skripte & Werkzeuge**: POSIX Shell, Python (Datenmodellierung & numerische Simulationen), Lua
 
 ### Verteilte Systeme & Datenspeicherung
 - **Protokollentwicklung**: libp2p, gRPC, Protobuf, QUIC, Kernel-TCP/IP-Tuning, WireGuard

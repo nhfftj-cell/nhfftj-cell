@@ -31,7 +31,7 @@ Ecosystem:      Rust, C99, Go, Linux Kernel eBPF, NixOS
 Mirrors & Code: GitHub (@nhfftj-cell) | Self-hosted Gitea Instances
 ```
 
-I maintain critical infrastructure mirrors, build-reproducibility experiments, and embedded mesh network daemons on GitLab. While my main collaborative repositories live on GitHub, this namespace serves as my dedicated workshop for automated multi-architecture CI/CD runners, cross-compilation toolchains for low-power ARM Cortex-M hardware, and offline disaster-resilience mirrors.
+I maintain critical infrastructure mirrors, build-reproducibility experiments, and embedded mesh network daemons on GitLab. While my main collaborative repositories live on GitHub, this namespace serves as my dedicated workshop for reproducible multi-architecture CI/CD runners, cross-compilation toolchains for low-power ARM Cortex-M hardware, and offline disaster-resilience mirrors.
 
 ---
 
@@ -42,7 +42,7 @@ I maintain critical infrastructure mirrors, build-reproducibility experiments, a
 | **`mesh-relay-firmware`** | ARM Cortex-M0+ / C99 | Bare-metal packet relay runtime for SX1262 LoRa transceivers. | Active CI / Hardware-in-the-Loop |
 | **`nix-hermetic-runners`** | Nix / QEMU / Debian | Fully reproducible, bit-for-bit verifiable build pipelines for distributed systems. | Deployed & Maintained |
 | **`ebpf-router-probes`** | C / eBPF / Rust | Low-overhead kernel packet filters for diagnosing network bufferbloat. | Research & Benchmarks |
-| **`crdt-stress-harness`** | Go / Docker Swarm | High-churn network partition simulation harness testing partition-tolerant state sync. | Nightly Automation |
+| **`crdt-stress-harness`** | Go / Docker Swarm | High-churn network partition simulation harness testing partition-tolerant state sync. | Active Integration & Benchmarking |
 
 ---
 

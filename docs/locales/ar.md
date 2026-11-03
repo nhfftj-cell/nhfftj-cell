@@ -47,7 +47,7 @@
 - **الإنتاج الأساسي**: Rust (tokio, serde, async-std)، و Go (التزامن، netpoll، آليات بيئة التشغيل الداخلية)
 - **المستوى المنخفض والأنظمة المدمجة**: C99، و Zig، ولغة تجميع ARM Cortex-M Assembly
 - **طبقة الويب والواجهات**: Modern TypeScript، و Svelte، و WebAssembly (Wasm-bindgen)
-- **البرمجة النصية والأتمتة**: POSIX Shell، و Python (لنمذجة البيانات والمحاكاة العددية)، و Lua
+- **البرمجة النصية وأدوات النظام**: POSIX Shell، و Python (لنمذجة البيانات والمحاكاة العددية)، و Lua
 
 ### الأنظمة الموزعة والتخزين
 - **هندسة البروتوكولات**: libp2p، و gRPC، و Protobuf، و QUIC، وضبط مكدس TCP/IP للنواة، و WireGuard
